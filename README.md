@@ -18,7 +18,7 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 > 其他问题讨论 QQ 群：740412645
 >
 > <div align="center">
-> <img src="https://github.com/AbsentGrow/chatlog/tree/main/docs/images/qq-group-qrcode.png" width="300" alt="QQ群二维码">
+> <img src="https://raw.githubusercontent.com/hehuan07/chatlog/main/docs/images/qq-group-qrcode.png" width="300" alt="QQ群二维码">
 > </div>
 
 ## Feature
