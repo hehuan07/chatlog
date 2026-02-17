@@ -6,10 +6,10 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 
 [![ImgMCP](https://cdn.imgmcp.com/imgmcp-logo-small.png)](https://imgmcp.com)
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/sjzar/chatlog)](https://goreportcard.com/report/github.com/sjzar/chatlog)
-[![GoDoc](https://godoc.org/github.com/sjzar/chatlog?status.svg)](https://godoc.org/github.com/sjzar/chatlog)
-[![GitHub release](https://img.shields.io/github/release/sjzar/chatlog.svg)](https://github.com/sjzar/chatlog/releases)
-[![GitHub license](https://img.shields.io/github/license/sjzar/chatlog.svg)](https://github.com/sjzar/chatlog/blob/main/LICENSE)
+[![Go Report Card](https://goreportcard.com/badge/github.com/hehuan07/chatlog)](https://goreportcard.com/report/github.com/hehuan07/chatlog)
+[![GoDoc](https://godoc.org/github.com/hehuan07/chatlog?status.svg)](https://godoc.org/github.com/hehuan07/chatlog)
+[![GitHub release](https://img.shields.io/github/release/hehuan07/chatlog.svg)](https://github.com/hehuan07/chatlog/releases)
+[![GitHub license](https://img.shields.io/github/license/hehuan07/chatlog.svg)](https://github.com/hehuan07/chatlog/blob/main/LICENSE)
 
 </div>
 
@@ -18,7 +18,7 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 > 其他问题讨论 QQ 群：740412645
 >
 > <div align="center">
-> <img src="https://github.com/AbsentGrow/chatlog/tree/main/docs/images/qq-group-qrcode.png" width="300" alt="QQ群二维码">
+> <img src="https://raw.githubusercontent.com/hehuan07/chatlog/main/docs/images/qq-group-qrcode.png" width="300" alt="QQ群二维码">
 > </div>
 
 ## Feature
@@ -51,14 +51,14 @@ _聊天记录工具，帮助大家轻松使用自己的聊天数据_
 - **macOS 用户**：获取密钥前需[临时关闭 SIP](#macos-版本说明)
 - **Windows 用户**：遇到界面显示问题请[使用 Windows Terminal](#windows-版本说明)
 - **集成 AI 助手**：查看 [MCP 集成指南](#mcp-集成)
-- **无法获取密钥**：查看 [FAQ](https://github.com/sjzar/chatlog/issues/197)
+- **无法获取密钥**：查看 [FAQ](https://github.com/hehuan07/chatlog/issues/197)
 
 ## 安装指南
 
 ### 从源码安装
 
 ```bash
-go install github.com/sjzar/chatlog@latest
+go install github.com/hehuan07/chatlog@latest
 ```
 
 > 💡 **提示**: 部分功能有 cgo 依赖，编译前需确认本地有 C 编译环境。
@@ -121,19 +121,19 @@ chatlog 提供了两个镜像源：
 **Docker Hub**:
 
 ```shell
-docker pull sjzar/chatlog:latest
+docker pull hehuan07/chatlog:latest
 ```
 
 **GitHub Container Registry (ghcr)**:
 
 ```shell
-docker pull ghcr.io/sjzar/chatlog:latest
+docker pull ghcr.io/hehuan07/chatlog:latest
 ```
 
 > 💡 **镜像地址**:
 >
-> - Docker Hub: https://hub.docker.com/r/sjzar/chatlog
-> - GitHub Container Registry: https://ghcr.io/sjzar/chatlog
+> - Docker Hub: https://hub.docker.com/r/hehuan07/chatlog
+> - GitHub Container Registry: https://ghcr.io/hehuan07/chatlog
 
 **2. 运行容器**
 
@@ -142,7 +142,7 @@ $ docker run -d \
   --name chatlog \
   -p 5030:5030 \
   -v /path/to/your/wechat/data:/app/data \
-  sjzar/chatlog:latest
+  hehuan07/chatlog:latest
 ```
 
 ### 从手机迁移聊天记录
@@ -338,7 +338,7 @@ Chatlog 可以与多种支持 MCP 的 AI 助手集成，包括：
 
 查看 [Prompt 指南](docs/prompt.md) 获取详细示例。
 
-同时欢迎大家分享使用经验和 prompt！如果您有好的 prompt 示例或使用技巧，请通过 [Discussions](https://github.com/sjzar/chatlog/discussions) 进行分享，共同进步。
+同时欢迎大家分享使用经验和 prompt！如果您有好的 prompt 示例或使用技巧，请通过 [Discussions](https://github.com/hehuan07/chatlog/discussions) 进行分享，共同进步。
 
 ## 免责声明
 
